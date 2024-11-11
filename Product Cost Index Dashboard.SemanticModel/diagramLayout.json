@@ -1,0 +1,113 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 583.27313376261475,
+            "y": 195
+          },
+          "nodeIndex": "Product Cost Index Transformed",
+          "nodeLineageTag": "8789cfc8-4751-470f-afc6-045946a8538d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 953,
+            "y": 0
+          },
+          "nodeIndex": "Rolling Calendar Config",
+          "nodeLineageTag": "4a01545e-0e82-4707-b88d-06c1508e97ee",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 16,
+            "y": 0
+          },
+          "nodeIndex": "Calculation group",
+          "nodeLineageTag": "e54f73f6-1685-40e1-a8df-f81d5629a8aa",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 930,
+            "y": 440.2982585950449
+          },
+          "nodeIndex": "Material Code Config",
+          "nodeLineageTag": "12568bee-f1d0-4a56-b368-5bdaad064a8c",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 387,
+            "y": 547.14912929752245
+          },
+          "nodeIndex": "Inventory Production Config",
+          "nodeLineageTag": "c3e99cee-8907-4a48-a81e-43d9ee952984",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 231,
+            "y": 160.07456464876122
+          },
+          "nodeIndex": "Product Classifaction Config",
+          "nodeLineageTag": "c67a9bec-e948-4c54-9ba7-7dbdebcc114f",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 422.57456464876122
+          },
+          "nodeIndex": "DimReplacement Cost",
+          "nodeLineageTag": "20bb9b6c-3e3c-4feb-9ee1-8e8b116beb59",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 50,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Product Cost Index Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1898228f-3371-4b03-b070-fb1e6f9ea13d"
+  }
+}
