@@ -17045,10 +17045,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -18945,10 +18941,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -19046,6 +19038,19 @@
             "dataType": "string",
             "lineageTag": "87732baa-629f-4c45-b9d1-fcd904b55f47",
             "sourceColumn": "Model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Brand",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "631992ca-2e6d-4f64-86db-9bc2833cb2dc",
+            "sourceColumn": "Brand",
             "summarizeBy": "none"
           }
         ],
@@ -19414,10 +19419,6 @@
       {
         "name": "DimReplacement Cost",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
