@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"SP Connection - Data\",\"Product Index\",\"Dynamic Calendar\",\"DimReplacement Cost\",\"Rolling Calendar Config\",\"Product Cost Index Transformed\",\"Classification Mapping\",\"SP Connection - Class Mapping\",\"SP Connection - Material Mapping\",\"Material Mapping\",\"Material Code Config\",\"Inventory Reference\",\"Inventory Production Config\",\"SP Connection - Sub Class Mapping\",\"Sub-Classification Mapping\",\"Product Classifaction Config\",\"SP Connection - 2023 Retail & Replacement Cost (Temporary)\",\"SP Connection - Inventory Reference\",\"2023 Retail & Replacement Cost (Temporary)\",\"SQL Connection - Master Material Data\",\"Parameter1\",\"Transform Sample File\",\"Sample File\",\"Transform File\"]"
+        "value": "[\"Product Index\",\"Dynamic Calendar\",\"DimReplacement Cost\",\"Rolling Calendar Config\",\"Product Cost Index Transformed\",\"SP Connection - Material Mapping\",\"Material Mapping\",\"Material Code Config\",\"Inventory Reference\",\"Inventory Production Config\",\"SP Connection - 2023 Retail & Replacement Cost (Temporary)\",\"SP Connection - Data\",\"SP Connection - Inventory Reference\",\"2023 Retail & Replacement Cost (Temporary)\",\"SQL Connection - Master Material Data\",\"Parameter1\",\"Transform Sample File\",\"Sample File\",\"Transform File\",\"Parameter2\",\"Transform Sample File (2)\",\"Sample File (2)\",\"Transform File (2)\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -5133,381 +5133,6 @@
                   }
                 ]
               },
-              "material_code_config.sub_classifcation": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Material Code Config",
-                    "ConceptualProperty": "Sub Classifcation"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "sub classifcation": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "product_classifaction_config": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Classifaction Config"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "product classifaction config": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "artifact classifaction config": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "item classifaction config": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "merchandise classifaction config": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "produce classifaction config": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  }
-                ]
-              },
-              "product_classifaction_config.classification": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Classifaction Config",
-                    "ConceptualProperty": "Classification"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "classification": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "organization": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "arrangement": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "taxonomy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "categorization": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cataloguing": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "cataloging": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "sorting": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "ordering": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "grouping": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "division": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  }
-                ]
-              },
-              "product_classifaction_config.material": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Classifaction Config",
-                    "ConceptualProperty": "Material"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "material": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "physical": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "substantial": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "solid": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "central": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "substantive": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "product_classifaction_config.material_description": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Classifaction Config",
-                    "ConceptualProperty": "Material Description"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "material description": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "description": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "material appearance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "material descriptor": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "material explanation": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "material specification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "appearance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "descriptor": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "explanation": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "specification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "material account": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "material overview": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
               "product_cost_index_transformed": {
                 "Definition": {
                   "Binding": {
@@ -7260,238 +6885,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.748
-                    }
-                  }
-                ]
-              },
-              "product_cost_index_transformed.capacity": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Cost Index Transformed",
-                    "ConceptualProperty": "Capacity"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "capacity": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "volume": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "size": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "bulk": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "ability": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "capability": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "aptitude": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "faculty": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "competence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "facility": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "power": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "product_cost_index_transformed.classification": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Cost Index Transformed",
-                    "ConceptualProperty": "Classification"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "classification": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "organization": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "arrangement": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "taxonomy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "categorization": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cataloguing": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "cataloging": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "sorting": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "ordering": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "grouping": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "division": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
                     }
                   }
                 ]
@@ -9369,250 +8762,6 @@
                   }
                 ]
               },
-              "product_cost_index_transformed.product_category": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Cost Index Transformed",
-                    "ConceptualProperty": "Product Category"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "product category": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "category": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "product classification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "product group": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product type": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product grouping": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product kind": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "grouping": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "kind": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "artifact category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "merchandise category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "produce category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "product_cost_index_transformed.product_class": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Cost Index Transformed",
-                    "ConceptualProperty": "Product Class"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "product class": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "class": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "product classification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "product genre": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "genre": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "product course": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product grade": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product lecture": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product lesson": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product period": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "product rank": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "course": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  }
-                ]
-              },
               "product_cost_index_transformed.qty": {
                 "Definition": {
                   "Binding": {
@@ -9911,22 +9060,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.485
-                    }
-                  }
-                ]
-              },
-              "product_cost_index_transformed.subclassifcation": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Product Cost Index Transformed",
-                    "ConceptualProperty": "Sub-Classifcation"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "sub-classifcation": {
-                      "State": "Generated"
                     }
                   }
                 ]
@@ -13470,204 +12603,6 @@
                   "material_code_config.sub_classifcation": {
                     "Target": {
                       "Entity": "material_code_config.sub_classifcation"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_classification": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.classification"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_classifications",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.classification": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.classification"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_material": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.material"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_materials",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.material": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.material"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_material_description": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.material_description"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_material_descriptions",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.material_description": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.material_description"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_product_category": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.product_category"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_product_categories",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.product_category": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.product_category"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_product_class": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.product_class"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_product_classes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.product_class": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.product_class"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "product_classifaction_config_has_sub_classification": {
-                "Binding": {
-                  "ConceptualEntity": "Product Classifaction Config"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "product_classifaction_config.sub_classification"
-                      },
-                      "Subject": {
-                        "Role": "product_classifaction_config"
-                      }
-                    },
-                    "ID": "product_classifaction_configs_have_sub_classifications",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "product_classifaction_config": {
-                    "Target": {
-                      "Entity": "product_classifaction_config"
-                    }
-                  },
-                  "product_classifaction_config.sub_classification": {
-                    "Target": {
-                      "Entity": "product_classifaction_config.sub_classification"
                     }
                   }
                 },
@@ -17338,15 +16273,21 @@
           },
           {
             "name": "PBI_ResultType",
-            "value": "Binary"
+            "value": "Table"
           }
         ],
         "expression": [
           "let",
           "    Source = SharePoint.Files(\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/\", [ApiVersion = 15]),",
-          "    #\"Product Cost Index Raw xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\" = Source{[Name=\"Product Cost Index Raw.xlsx\",#\"Folder Path\"=\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\"]}[Content]",
+          "    #\"Reordered Columns\" = Table.ReorderColumns(Source,{\"Folder Path\", \"Content\", \"Name\", \"Extension\", \"Date accessed\", \"Date modified\", \"Date created\", \"Attributes\"}),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns\", each ([Folder Path] = \"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/ZCOR001 Raw/\")),",
+          "    #\"Filtered Hidden Files1\" = Table.SelectRows(#\"Filtered Rows\", each [Attributes]?[Hidden]? <> true),",
+          "    #\"Invoke Custom Function1\" = Table.AddColumn(#\"Filtered Hidden Files1\", \"Transform File (2)\", each #\"Transform File (2)\"([Content])),",
+          "    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Invoke Custom Function1\", {\"Transform File (2)\"}),",
+          "    #\"Expanded Table Column1\" = Table.ExpandTableColumn(#\"Removed Other Columns1\", \"Transform File (2)\", Table.ColumnNames(#\"Transform File (2)\"(#\"Sample File (2)\"))),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded Table Column1\",{{\"Costing Variant\", type text}, {\"Valuation area\", Int64.Type}, {\"FG Item Code\", Int64.Type}, {\"FG Item Code Description\", type text}, {\"Item Category\", type text}, {\"Cost Estimate Number\", Int64.Type}, {\"Item Code\", type text}, {\"Item Code Description\", type text}, {\"Costing Date\", Int64.Type}, {\"Cost Element\", Int64.Type}, {\"G/L Acct Long Text\", type text}, {\"TOTAL\", type number}, {\"QTY\", type number}, {\"UOM SAP\", type text}, {\"REPL Code\", Int64.Type}, {\"REPL Code Description\", type text}, {\"BOM Usage\", Int64.Type}, {\"Alternative BOM\", Int64.Type}, {\"Item (SD)\", Int64.Type}, {\"Main Plant\", Int64.Type}, {\"REPL Qty\", type number}, {\"REPL UOM\", type text}, {\"Vendor\", Int64.Type}, {\"Vendor Name\", type text}, {\"Comp Denom\", Int64.Type}, {\"Converted Base Qty\", type number}, {\"Base Unit of Measure\", type text}, {\"REPL Price\", type number}, {\"REPL Currency\", type text}, {\"PIR Price per UOM\", Int64.Type}, {\"Order Price Unit\", type text}, {\"PIR Denom\", Int64.Type}, {\"PIR Counter\", Int64.Type}, {\"PIR Base Net Price\", type number}, {\"Component Price\", type number}, {\"FX / FOREX\", type number}, {\"REPL FOB in PHP\", type number}, {\"ZFRF\", type number}, {\"ZDTX\", Int64.Type}, {\"ZOTH\", Int64.Type}, {\"ZBRO\", Int64.Type}, {\"ZINS\", Int64.Type}, {\"REPL LCF Rate\", Percentage.Type}, {\"REPL LCF Amount\", type number}, {\"REPL Total\", type number}, {\"Standard price\", type number}, {\"Standard Usage\", type number}, {\"Usage Variance\", type number}, {\"Material Group\", Int64.Type}, {\"Material Group Desc\", type text}})",
           "in",
-          "    #\"Product Cost Index Raw xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\""
+          "    #\"Changed Type\""
         ],
         "kind": "m",
         "lineageTag": "eac3075c-7be7-4261-bae9-6b36a04d319a",
@@ -17412,10 +16353,7 @@
         "expression": [
           "let",
           "    Source = #\"SP Connection - Data\",",
-          "    #\"Imported Excel Workbook\" = Excel.Workbook(Source),",
-          "    Sheet1_Sheet = #\"Imported Excel Workbook\"{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
-          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Costing Variant\", type text}, {\"Valuation area\", Int64.Type}, {\"FG Item Code\", Int64.Type}, {\"FG Item Code Description\", type text}, {\"Item Category\", type text}, {\"Cost Estimate Number\", Int64.Type}, {\"Item Code\", type text}, {\"Item Code Description\", type text}, {\"Costing Date\", Int64.Type}, {\"Cost Element\", Int64.Type}, {\"G/L Acct Long Text\", type text}, {\"TOTAL\", type number}, {\"QTY\", type number}, {\"UOM SAP\", type text}, {\"REPL Code\", Int64.Type}, {\"REPL Code Description\", type text}, {\"BOM Usage\", Int64.Type}, {\"Alternative BOM\", Int64.Type}, {\"Item (SD)\", Int64.Type}, {\"Main Plant\", Int64.Type}, {\"REPL Qty\", type number}, {\"REPL UOM\", type text}, {\"Vendor\", Int64.Type}, {\"Vendor Name\", type text}, {\"Comp Denom\", Int64.Type}, {\"Converted Base Qty\", type number}, {\"Base Unit of Measure\", type text}, {\"REPL Price\", type number}, {\"REPL Currency\", type text}, {\"PIR Price per UOM\", Int64.Type}, {\"Order Price Unit\", type text}, {\"PIR Denom\", Int64.Type}, {\"PIR Counter\", Int64.Type}, {\"PIR Base Net Price\", type number}, {\"Component Price\", type number}, {\"FX / FOREX\", type number}, {\"REPL FOB in PHP\", type number}, {\"ZFRF\", type number}, {\"ZDTX\", Int64.Type}, {\"ZOTH\", Int64.Type}, {\"ZBRO\", Int64.Type}, {\"ZINS\", Int64.Type}, {\"REPL LCF Rate\", Percentage.Type}, {\"REPL LCF Amount\", type number}, {\"REPL Total\", type number}, {\"Standard price\", type number}, {\"Standard Usage\", type number}, {\"Usage Variance\", type number}, {\"Material Group\", Int64.Type}, {\"Material Group Desc\", type text}}),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Costing Variant\", type text}, {\"Valuation area\", Int64.Type}, {\"FG Item Code\", Int64.Type}, {\"FG Item Code Description\", type text}, {\"Item Category\", type text}, {\"Cost Estimate Number\", Int64.Type}, {\"Item Code\", type text}, {\"Item Code Description\", type text}, {\"Costing Date\", Int64.Type}, {\"Cost Element\", Int64.Type}, {\"G/L Acct Long Text\", type text}, {\"TOTAL\", type number}, {\"QTY\", type number}, {\"UOM SAP\", type text}, {\"REPL Code\", Int64.Type}, {\"REPL Code Description\", type text}, {\"BOM Usage\", Int64.Type}, {\"Alternative BOM\", Int64.Type}, {\"Item (SD)\", Int64.Type}, {\"Main Plant\", Int64.Type}, {\"REPL Qty\", type number}, {\"REPL UOM\", type text}, {\"Vendor\", Int64.Type}, {\"Vendor Name\", type text}, {\"Comp Denom\", Int64.Type}, {\"Converted Base Qty\", type number}, {\"Base Unit of Measure\", type text}, {\"REPL Price\", type number}, {\"REPL Currency\", type text}, {\"PIR Price per UOM\", Int64.Type}, {\"Order Price Unit\", type text}, {\"PIR Denom\", Int64.Type}, {\"PIR Counter\", Int64.Type}, {\"PIR Base Net Price\", type number}, {\"Component Price\", type number}, {\"FX / FOREX\", type number}, {\"REPL FOB in PHP\", type number}, {\"ZFRF\", type number}, {\"ZDTX\", Int64.Type}, {\"ZOTH\", Int64.Type}, {\"ZBRO\", Int64.Type}, {\"ZINS\", Int64.Type}, {\"REPL LCF Rate\", Percentage.Type}, {\"REPL LCF Amount\", type number}, {\"REPL Total\", type number}, {\"Standard price\", type number}, {\"Standard Usage\", type number}, {\"Usage Variance\", type number}, {\"Material Group\", Int64.Type}, {\"Material Group Desc\", type text}}),",
           "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",\"\",\"BLANK\",Replacer.ReplaceValue,{\"FG Item Code Description\"}),",
           "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Replaced Value\",{{\"Costing Date\", type date}}),",
           "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Changed Type1\",\"\",\"BLANK\",Replacer.ReplaceValue,{\"Vendor Name\"})",
@@ -17425,51 +16363,6 @@
         "kind": "m",
         "lineageTag": "f1ed5160-5aff-427c-87ee-5cea5765b8d9",
         "queryGroup": "Schema"
-      },
-      {
-        "name": "Classification Mapping",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Source = #\"SP Connection - Class Mapping\",",
-          "    #\"Imported Excel Workbook\" = Excel.Workbook(Source),",
-          "    Sheet1_Sheet = #\"Imported Excel Workbook\"{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
-          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Product Category\", type text}, {\"Product Class\", type text}, {\"Classification\", type text}, {\"Sub Classification\", type text}})",
-          "in",
-          "    #\"Changed Type\""
-        ],
-        "kind": "m",
-        "lineageTag": "d101462e-5b90-4a8e-b875-e86b1f376576",
-        "queryGroup": "Schema"
-      },
-      {
-        "name": "SP Connection - Class Mapping",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Source = SharePoint.Files(\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/\", [ApiVersion = 15]),",
-          "    #\"Classification Mapping xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\" = Source{[Name=\"Classification Mapping.xlsx\",#\"Folder Path\"=\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\"]}[Content]",
-          "in",
-          "    #\"Classification Mapping xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\""
-        ],
-        "kind": "m",
-        "lineageTag": "42c1f658-2b6d-48c8-a08a-6dacaef264fb",
-        "queryGroup": "Source Point"
       },
       {
         "name": "SP Connection - Material Mapping",
@@ -17572,55 +16465,6 @@
         ],
         "kind": "m",
         "lineageTag": "cc9e7efe-954d-470b-96da-1f02e5c67c9c",
-        "queryGroup": "Schema"
-      },
-      {
-        "name": "SP Connection - Sub Class Mapping",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Source = SharePoint.Files(\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/\", [ApiVersion = 15]),",
-          "    #\"SubClassification Mapping xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\" = Source{[Name=\"SubClassification Mapping.xlsx\",#\"Folder Path\"=\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\"]}[Content]",
-          "in",
-          "    #\"SubClassification Mapping xlsx_https://phccac sharepoint com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/\""
-        ],
-        "kind": "m",
-        "lineageTag": "42848056-0eed-42b7-af1a-84428b72470b",
-        "queryGroup": "Source Point"
-      },
-      {
-        "name": "Sub-Classification Mapping",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Source = #\"SP Connection - Sub Class Mapping\",",
-          "    #\"Imported Excel Workbook\" = Excel.Workbook(Source),",
-          "    Sheet1_Sheet = #\"Imported Excel Workbook\"{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
-          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Model\", type text}, {\"Classification\", type text}, {\"Material\", Int64.Type}, {\"Material Description\", type text}})",
-          "in",
-          "    #\"Changed Type\""
-        ],
-        "kind": "m",
-        "lineageTag": "1419ba53-919f-4c5f-9a94-7f5f55c29508",
         "queryGroup": "Schema"
       },
       {
@@ -17770,6 +16614,88 @@
         "lineageTag": "7fb4d000-de1e-4803-92aa-87d53533616c",
         "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File\"\"}\" ]",
         "queryGroup": "Source Point\\Transform File from SP Connection - Inventory Reference\\Helper Queries"
+      },
+      {
+        "name": "Parameter2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Sample File (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Sample File (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "627b64d1-3bdd-42ca-8a6d-41cbea3dbe78",
+        "queryGroup": "Source Point\\Transform File from SP Connection - Data\\Helper Queries"
+      },
+      {
+        "name": "Transform Sample File (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Excel.Workbook(Parameter2, null, true),",
+          "    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Promoted Headers\""
+        ],
+        "kind": "m",
+        "lineageTag": "f164899d-4b6b-4bc7-ab61-8dbfa74a4eb2",
+        "queryGroup": "Source Point\\Transform File from SP Connection - Data"
+      },
+      {
+        "name": "Sample File (2)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = SharePoint.Files(\"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/\", [ApiVersion = 15]),",
+          "    #\"Reordered Columns\" = Table.ReorderColumns(Source,{\"Folder Path\", \"Content\", \"Name\", \"Extension\", \"Date accessed\", \"Date modified\", \"Date created\", \"Attributes\"}),",
+          "    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns\", each ([Folder Path] = \"https://phccac.sharepoint.com/sites/MIS-UATBIandSolutioning/Shared Documents/FACTORY FINANCE UAT/PRODUCT COST INDEX/ZCOR001 Raw/\")),",
+          "    Navigation1 = #\"Filtered Rows\"{0}[Content]",
+          "in",
+          "    Navigation1"
+        ],
+        "kind": "m",
+        "lineageTag": "155c5832-29bf-45e0-9907-c3ea3b4e7dc8",
+        "queryGroup": "Source Point\\Transform File from SP Connection - Data\\Helper Queries"
+      },
+      {
+        "name": "Transform File (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = (Parameter2 as binary) => let",
+          "    Source = Excel.Workbook(Parameter2, null, true),",
+          "    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Promoted Headers\"",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "41dc8a0a-d73b-4c12-babf-0a19752f0cab",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File (2)\"\"}\" ]",
+        "queryGroup": "Source Point\\Transform File from SP Connection - Data\\Helper Queries"
       }
     ],
     "queryGroups": [
@@ -17826,6 +16752,24 @@
           }
         ],
         "folder": "Source Point\\Transform File from SP Connection - Inventory Reference\\Helper Queries"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "Source Point\\Transform File from SP Connection - Data"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Source Point\\Transform File from SP Connection - Data\\Helper Queries"
       }
     ],
     "relationships": [
@@ -17874,23 +16818,6 @@
         "toCardinality": "many",
         "toColumn": "FG Item Code",
         "toTable": "Product Cost Index Transformed"
-      },
-      {
-        "name": "AutoDetected_42784d28-5cbf-407a-ad46-e61dfaad47cc",
-        "crossFilteringBehavior": "bothDirections",
-        "fromCardinality": "one",
-        "fromColumn": "Material",
-        "fromTable": "Product Classifaction Config",
-        "isActive": false,
-        "toColumn": "Material",
-        "toTable": "Material Code Config"
-      },
-      {
-        "name": "d51f7158-69da-8fd9-b78c-76a7efef7eee",
-        "fromColumn": "FG Item Code",
-        "fromTable": "Product Cost Index Transformed",
-        "toColumn": "Material",
-        "toTable": "Product Classifaction Config"
       },
       {
         "name": "37aa0a37-7a13-fe2e-2b5a-e670e5908354",
@@ -18262,10 +17189,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ],
         "columns": [
@@ -19081,7 +18004,7 @@
               }
             ],
             "dataType": "string",
-            "lineageTag": "c5c9b77d-38d9-4eb3-84ac-a6e4e7701fc9",
+            "lineageTag": "763e0613-e855-4d4b-93be-0de2b7886b23",
             "sourceColumn": "Product Category",
             "summarizeBy": "none"
           },
@@ -19094,7 +18017,7 @@
               }
             ],
             "dataType": "string",
-            "lineageTag": "7f6c5c2b-777a-4d13-8ee7-b265fcc841db",
+            "lineageTag": "47debb67-3b3c-43dc-9e2a-e06c7194d092",
             "sourceColumn": "Product Class",
             "summarizeBy": "none"
           },
@@ -19111,7 +18034,7 @@
               }
             ],
             "dataType": "double",
-            "lineageTag": "fba80dba-2246-4b44-8ada-b118c03fc78e",
+            "lineageTag": "5f04002e-f554-492b-9bd4-41ab0a9ab3bd",
             "sourceColumn": "Capacity",
             "summarizeBy": "sum"
           },
@@ -19124,21 +18047,8 @@
               }
             ],
             "dataType": "string",
-            "lineageTag": "6a248b48-8b93-4f55-af06-17d63b831c0a",
+            "lineageTag": "8a0c3b1c-c9f6-4cab-9f87-8ac71f86c49c",
             "sourceColumn": "Classification",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Sub-Classifcation",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "98e61e84-5d6d-4d8b-9674-46cbfd45606c",
-            "sourceColumn": "Sub-Classifcation",
             "summarizeBy": "none"
           }
         ],
@@ -19158,17 +18068,10 @@
                 "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Renamed Columns\",{\"Costing Variant\", \"Valuation area\", \"FG Item Code\", \"FG Item Code Description\", \"Item Category\", \"Cost Estimate Number\", \"Item Code\", \"Item Code Description\", \"Costing Date\", \"Week\", \"Month\", \"Year\", \"Quarter\", \"Cost Element\", \"G/L Acct Long Text\", \"TOTAL\", \"QTY\", \"UOM SAP\", \"REPL Code\", \"REPL Code Description\", \"BOM Usage\", \"Alternative BOM\", \"Item (SD)\", \"Main Plant\", \"REPL Qty\", \"REPL UOM\", \"Vendor\", \"Vendor Name\", \"Comp Denom\", \"Converted Base Qty\", \"Base Unit of Measure\", \"REPL Price\", \"REPL Currency\", \"PIR Price per UOM\", \"Order Price Unit\", \"PIR Denom\", \"PIR Counter\", \"PIR Base Net Price\", \"Component Price\", \"FX / FOREX\", \"REPL FOB in PHP\", \"ZFRF\", \"ZDTX\", \"ZOTH\", \"ZBRO\", \"ZINS\", \"REPL LCF Rate\", \"REPL LCF Amount\", \"REPL Total\", \"Standard price\", \"Standard Usage\", \"Usage Variance\", \"Material Group\", \"Material Group Desc\"}),",
                 "    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns\", each true),",
                 "    #\"Merged Material\" = Table.NestedJoin(#\"Filtered Rows\", {\"FG Item Code\"}, #\"Material Code Config\", {\"Material\"}, \"Material Code Config\", JoinKind.LeftOuter),",
-                "    #\"Expanded Material Code Config\" = Table.ExpandTableColumn(#\"Merged Material\", \"Material Code Config\", {\"Product Category\", \"Product Class\", \"Classification\", \"Capacity\"}, {\"Material Code Config.Product Category\", \"Material Code Config.Product Class\", \"Material Code Config.Classification\", \"Material Code Config.Capacity\"}),",
-                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Expanded Material Code Config\",{{\"Material Code Config.Product Category\", \"Product Category\"}, {\"Material Code Config.Product Class\", \"Product Class\"}, {\"Material Code Config.Classification\", \"Classification\"}, {\"Material Code Config.Capacity\", \"Capacity\"}}),",
-                "    #\"Reordered Columns1\" = Table.ReorderColumns(#\"Renamed Columns1\",{\"Costing Variant\", \"Valuation area\", \"Product Category\", \"Product Class\", \"Capacity\", \"Classification\", \"FG Item Code\", \"FG Item Code Description\", \"Item Category\", \"Cost Estimate Number\", \"Item Code\", \"Item Code Description\", \"Costing Date\", \"Week\", \"Month\", \"Year\", \"Quarter\", \"Cost Element\", \"G/L Acct Long Text\", \"TOTAL\", \"QTY\", \"UOM SAP\", \"REPL Code\", \"REPL Code Description\", \"BOM Usage\", \"Alternative BOM\", \"Item (SD)\", \"Main Plant\", \"REPL Qty\", \"REPL UOM\", \"Vendor\", \"Vendor Name\", \"Comp Denom\", \"Converted Base Qty\", \"Base Unit of Measure\", \"REPL Price\", \"REPL Currency\", \"PIR Price per UOM\", \"Order Price Unit\", \"PIR Denom\", \"PIR Counter\", \"PIR Base Net Price\", \"Component Price\", \"FX / FOREX\", \"REPL FOB in PHP\", \"ZFRF\", \"ZDTX\", \"ZOTH\", \"ZBRO\", \"ZINS\", \"REPL LCF Rate\", \"REPL LCF Amount\", \"REPL Total\", \"Standard price\", \"Standard Usage\", \"Usage Variance\", \"Material Group\", \"Material Group Desc\"}),",
-                "    #\"Merged Queries\" = Table.NestedJoin(#\"Reordered Columns1\", {\"FG Item Code\"}, #\"Product Classifaction Config\", {\"Material\"}, \"Product Classifaction Config\", JoinKind.LeftOuter),",
-                "    #\"Expanded Product Classifaction Config\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Product Classifaction Config\", {\"Sub Classification\"}, {\"Product Classifaction Config.Sub Classification\"}),",
-                "    #\"Added Classifcation\" = Table.AddColumn(#\"Expanded Product Classifaction Config\", \"Sub-Classifcation\", each if [Product Classifaction Config.Sub Classification] = null",
-                "then [Classification] else [Product Classifaction Config.Sub Classification]),",
-                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Classifcation\",{\"Product Classifaction Config.Sub Classification\"}),",
-                "    #\"Reordered Columns2\" = Table.ReorderColumns(#\"Removed Columns\",{\"Costing Variant\", \"Valuation area\", \"Product Category\", \"Product Class\", \"Capacity\", \"Classification\", \"Sub-Classifcation\", \"FG Item Code\", \"FG Item Code Description\", \"Item Category\", \"Cost Estimate Number\", \"Item Code\", \"Item Code Description\", \"Costing Date\", \"Week\", \"Month\", \"Year\", \"Quarter\", \"Cost Element\", \"G/L Acct Long Text\", \"TOTAL\", \"QTY\", \"UOM SAP\", \"REPL Code\", \"REPL Code Description\", \"BOM Usage\", \"Alternative BOM\", \"Item (SD)\", \"Main Plant\", \"REPL Qty\", \"REPL UOM\", \"Vendor\", \"Vendor Name\", \"Comp Denom\", \"Converted Base Qty\", \"Base Unit of Measure\", \"REPL Price\", \"REPL Currency\", \"PIR Price per UOM\", \"Order Price Unit\", \"PIR Denom\", \"PIR Counter\", \"PIR Base Net Price\", \"Component Price\", \"FX / FOREX\", \"REPL FOB in PHP\", \"ZFRF\", \"ZDTX\", \"ZOTH\", \"ZBRO\", \"ZINS\", \"REPL LCF Rate\", \"REPL LCF Amount\", \"REPL Total\", \"Standard price\", \"Standard Usage\", \"Usage Variance\", \"Material Group\", \"Material Group Desc\"})",
+                "    #\"Expanded Material Code Config\" = Table.ExpandTableColumn(#\"Merged Material\", \"Material Code Config\", {\"Product Category\", \"Product Class\", \"Classification\", \"Capacity\"}, {\"Product Category\", \"Product Class\", \"Classification\", \"Capacity\"}),",
+                "    #\"Reordered Columns1\" = Table.ReorderColumns(#\"Expanded Material Code Config\",{\"Costing Variant\", \"Valuation area\", \"Product Category\", \"Product Class\", \"Capacity\", \"Classification\", \"FG Item Code\", \"FG Item Code Description\", \"Item Category\", \"Cost Estimate Number\", \"Item Code\", \"Item Code Description\", \"Costing Date\", \"Week\", \"Month\", \"Year\", \"Quarter\", \"Cost Element\", \"G/L Acct Long Text\", \"TOTAL\", \"QTY\", \"UOM SAP\", \"REPL Code\", \"REPL Code Description\", \"BOM Usage\", \"Alternative BOM\", \"Item (SD)\", \"Main Plant\", \"REPL Qty\", \"REPL UOM\", \"Vendor\", \"Vendor Name\", \"Comp Denom\", \"Converted Base Qty\", \"Base Unit of Measure\", \"REPL Price\", \"REPL Currency\", \"PIR Price per UOM\", \"Order Price Unit\", \"PIR Denom\", \"PIR Counter\", \"PIR Base Net Price\", \"Component Price\", \"FX / FOREX\", \"REPL FOB in PHP\", \"ZFRF\", \"ZDTX\", \"ZOTH\", \"ZBRO\", \"ZINS\", \"REPL LCF Rate\", \"REPL LCF Amount\", \"REPL Total\", \"Standard price\", \"Standard Usage\", \"Usage Variance\", \"Material Group\", \"Material Group Desc\"})",
                 "in",
-                "    #\"Reordered Columns2\""
+                "    #\"Reordered Columns1\""
               ],
               "type": "m"
             }
@@ -20133,19 +19036,6 @@
             "summarizeBy": "none"
           },
           {
-            "name": "Sub Classifcation",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "e92d8dba-821f-4071-ac4c-55746150a666",
-            "sourceColumn": "Sub Classifcation",
-            "summarizeBy": "none"
-          },
-          {
             "name": "Model",
             "annotations": [
               {
@@ -20168,14 +19058,9 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = #\"Material Mapping\",",
-                "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"Material\"}, #\"Sub-Classification Mapping\", {\"Material\"}, \"Sub-Classification Mapping\", JoinKind.LeftOuter),",
-                "    #\"Expanded Sub-Classification Mapping\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Sub-Classification Mapping\", {\"Sub Classification\"}, {\"Sub-Classification Mapping.Sub Classification\"}),",
-                "    #\"Added Custom\" = Table.AddColumn(#\"Expanded Sub-Classification Mapping\", \"Sub Classifcation\", each if [#\"Sub-Classification Mapping.Sub Classification\"] = null then [Classification] else [#\"Sub-Classification Mapping.Sub Classification\"]),",
-                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Custom\",{\"Sub-Classification Mapping.Sub Classification\"}),",
-                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Removed Columns\",{\"Product Category\", \"Product Class\", \"Classification\", \"Sub Classifcation\", \"Capacity\", \"Material\", \"Material Description\"})",
+                "    Source = #\"Material Mapping\"",
                 "in",
-                "    #\"Reordered Columns\""
+                "    Source"
               ],
               "type": "m"
             }
@@ -20518,120 +19403,6 @@
                 "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"Material\"}, #\"Material Mapping\", {\"Material\"}, \"Material Mapping\", JoinKind.LeftOuter),",
                 "    #\"Expanded Material Mapping\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Material Mapping\", {\"Product Class\", \"Classification\", \"Model\"}, {\"Product Class\", \"Classification\", \"Model\"}),",
                 "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Expanded Material Mapping\",{\"Material\", \"Material description\", \"Movement type\", \"Qty in unit of entry\", \"Model\", \"Entry Date\"})",
-                "in",
-                "    #\"Reordered Columns\""
-              ],
-              "type": "m"
-            }
-          }
-        ]
-      },
-      {
-        "name": "Product Classifaction Config",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          }
-        ],
-        "columns": [
-          {
-            "name": "Classification",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "caacf819-9789-437a-a46b-ea0e1d0dec0e",
-            "sourceColumn": "Classification",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Material",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "46ac30c3-451c-4692-b32d-5026e63c2090",
-            "sourceColumn": "Material",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Material Description",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "28a29300-afbd-4aa2-8eca-923c93f774cb",
-            "sourceColumn": "Material Description",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Product Category",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "1341ad44-b83f-4d9e-80a8-bc52a28345be",
-            "sourceColumn": "Product Category",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Product Class",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "3bcc5bfb-77c3-4a00-b305-a7dff4383f43",
-            "sourceColumn": "Product Class",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Model",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "7c3f5ee2-231d-448d-bc74-54f35f8c93f6",
-            "sourceColumn": "Model",
-            "summarizeBy": "none"
-          }
-        ],
-        "lineageTag": "c67a9bec-e948-4c54-9ba7-7dbdebcc114f",
-        "partitions": [
-          {
-            "name": "Product Classifaction Config",
-            "mode": "import",
-            "queryGroup": "Data Configs",
-            "source": {
-              "expression": [
-                "let",
-                "    Source = #\"Sub-Classification Mapping\",",
-                "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"Model\"}, #\"Classification Mapping\", {\"Sub Classification\"}, \"Classification Mapping\", JoinKind.LeftOuter),",
-                "    #\"Expanded Classification Mapping\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Classification Mapping\", {\"Product Category\", \"Product Class\"}, {\"Product Category\", \"Product Class\"}),",
-                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Expanded Classification Mapping\",{\"Product Category\", \"Product Class\", \"Classification\", \"Model\", \"Material\", \"Material Description\"})",
                 "in",
                 "    #\"Reordered Columns\""
               ],
